@@ -1,0 +1,102 @@
+/* extra small device */
+@media (min-width:320px) and (max-width:575px){
+
+    .form_part{
+        width: 100%;
+        margin: 40px auto;
+    }
+    .form_part form{
+        width: 100%;
+    }
+    .form_part table{
+        width: 100%;
+    }
+    .form_part form input, select{
+        padding: 5px 1px;
+        width: 100%;
+    }
+    .form_part form table tr td{
+        padding: 4px 2px;
+    }
+    footer h2 {
+        font-size: 12px;
+    }
+
+}
+
+
+/* small device */
+@media (min-width:576px) and (max-width:767px){
+    .form_part{
+        width: 90%;
+        margin: 40px auto;
+    }
+    .form_part form{
+        width: 100%;
+    }
+    .form_part table{
+        width: 100%;
+    }
+    .form_part form input, select{
+        padding: 5px 1px;
+        width: 100%;
+    }
+    .form_part form table tr td{
+        padding: 4px 2px;
+    }
+    footer h2 {
+        font-size: 14px;
+    }
+    .container{
+        max-width: 640px;
+      }
+}
+
+/* medium device */
+@media (min-width:768px) and (max-width:991px){
+    .form_part{
+        width: 80%;
+        margin: 40px auto;
+    }
+    .form_part form{
+        width: 100%;
+    }
+    .form_part table{
+        width: 100%;
+    }
+    .form_part form input, select{
+        padding: 5px 1px;
+        width: 100%;
+    }
+    .form_part form table tr td{
+        padding: 10px;
+    }
+    footer h2 {
+        font-size: 14px;
+    }
+}
+
+
+/* large device */
+@media (min-width:992px) and (max-width:1199px){
+    .form_part{
+        width: 80%;
+        margin: 40px auto;
+    }
+    .form_part form{
+        width: 100%;
+    }
+    .form_part table{
+        width: 100%;
+    }
+    .form_part form input, select{
+        padding: 5px 1px;
+        width: 100%;
+    }
+    .form_part form table tr td{
+        padding: 10px;
+    }
+    footer h2 {
+        font-size: 14px;
+    }
+}
