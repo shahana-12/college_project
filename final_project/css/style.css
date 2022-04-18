@@ -69,3 +69,35 @@ footer h2{
     padding: 20px 10px;
 }
 
+/* ************************************************
+    result page
+****************************************************/
+.result .text{
+    margin-top: -120px;
+}
+.result .text h1{
+    padding-bottom: 20px;
+    color: #8e44ad;
+}
+.result .text h3{
+    padding: 7px;
+    font-size: 20px;
+    color: #130f40;
+}
+.result .text button{
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+.result .text button a{
+    color: rgb(160, 155, 155);
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #8e44ad;
+}
+.result .text button:hover a{
+    color: white;
+}
+.result img{
+    width: 30%;
+}
