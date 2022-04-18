@@ -1,103 +1,114 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-a{
-    text-decoration: none;
-}
-ul li{
-    list-style: none;
-}
-h1,h2,h3,h4,h5,h6{
-    margin: 0;
-    padding: 0;
+/* extra small device */
+@media (min-width:320px) and (max-width:575px){
+
+    .form_part{
+        width: 100%;
+        margin: 40px auto;
+    }
+    .form_part form{
+        width: 100%;
+    }
+    .form_part table{
+        width: 100%;
+    }
+    .form_part form input, select{
+        padding: 5px 1px;
+        width: 100%;
+    }
+    .form_part form table tr td{
+        padding: 4px 2px;
+    }
+    footer h2 {
+        font-size: 12px;
+    }
+    .header_part img {
+        width: 100%;
+        height: 68px;
+    }
+
+    .result img {
+        width: 70%;
+    }
+
+
 }
 
-body {
-    background-color: #EEEEEE;
+
+/* small device */
+@media (min-width:576px) and (max-width:767px){
+    .form_part{
+        width: 90%;
+        margin: 40px auto;
+    }
+    .form_part form{
+        width: 100%;
+    }
+    .form_part table{
+        width: 100%;
+    }
+    .form_part form input, select{
+        padding: 5px 1px;
+        width: 100%;
+    }
+    .form_part form table tr td{
+        padding: 4px 2px;
+    }
+    footer h2 {
+        font-size: 14px;
+    }
+    .result img {
+        width: 70%;
+    }
 }
-.header_part{
-    background: #a29bfe;
-}
-.header_part img{
-    width: 100%;
-    height: 115px;
+
+/* medium device */
+@media (min-width:768px) and (max-width:991px){
+    .form_part{
+        width: 80%;
+        margin: 40px auto;
+    }
+    .form_part form{
+        width: 100%;
+    }
+    .form_part table{
+        width: 100%;
+    }
+    .form_part form input, select{
+        padding: 5px 1px;
+        width: 100%;
+    }
+    .form_part form table tr td{
+        padding: 10px;
+    }
+    footer h2 {
+        font-size: 14px;
+    }
+    .result img {
+        width: 50%;
+    }
 }
 
 
-
-
-
-
-.form_part{
-    margin: 70px auto;
-    width: 80%;
-    padding: 40px 20px;
-    -webkit-box-shadow: 0px 0px 21px 1px rgba(0,0,0,0.26); 
-    box-shadow: 0px 0px 21px 1px rgba(0,0,0,0.26);
-}
-.form_part form{
-    width: 50%;
-    margin: 0 auto;
-}
-.form_part form table tr td{
-    padding: 5px 20px;
-    font-family: Verdana, Arial, Helvetica, sans-serif;
-    font-size: 12px;
-    color: #000000;
-    font-weight: bold;
-}
-.form_part form input, select{
-    width: 200px;
-    padding: 3px;
-    background-color: #F4F0F2;
-    border: 1px solid #999;
-    border-radius: 2px;
-}
-.form_part form table tr td button{
-    border: 1px solid black;
-    padding: 1px 6px;
-    border-radius: 2px;
-    font-size: 12px;
-}
-
-footer{
-    background: #a29bfe;
-}
-footer h2{
-    font-size: 15px;
-    padding: 20px 10px;
-}
-
-/* ************************************************
-    result page
-****************************************************/
-.result .text{
-    margin-top: -120px;
-}
-.result .text h1{
-    padding-bottom: 20px;
-    color: #8e44ad;
-}
-.result .text h3{
-    padding: 7px;
-    font-size: 20px;
-    color: #130f40;
-}
-.result .text button{
-    margin-top: 15px;
-    margin-bottom: 50px;
-}
-.result .text button a{
-    color: rgb(160, 155, 155);
-    font-size: 15px;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: #8e44ad;
-}
-.result .text button:hover a{
-    color: white;
-}
-.result img{
-    width: 30%;
+/* large device */
+@media (min-width:992px) and (max-width:1199px){
+    .form_part{
+        width: 80%;
+        margin: 40px auto;
+    }
+    .form_part form{
+        width: 100%;
+    }
+    .form_part table{
+        width: 100%;
+    }
+    .form_part form input, select{
+        padding: 5px 1px;
+        width: 100%;
+    }
+    .form_part form table tr td{
+        padding: 10px;
+    }
+    footer h2 {
+        font-size: 14px;
+    }
 }
